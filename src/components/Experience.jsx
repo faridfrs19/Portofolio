@@ -10,12 +10,13 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { bghero } from "../assets";
 
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        backgroundImage: "url(../src/assets/bg-hero.jpg)",
+        backgroundImage:  `url(${bghero})`,
         backgroundSize: "cover",
         color: "#fff",
       }}
