@@ -138,9 +138,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Web Undangan",
+    name: "Web Undangan Pernikahan",
     description:
-      "is an e-commerce platform that allows cooperative members to sell their products online. However, this website is not yet completed.",
+      "is an online wedding invitation platform that allows us to share special moments by inviting friends and family to attend.",
     tags: [
       {
         name: "html",
