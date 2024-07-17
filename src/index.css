@@ -17,6 +17,11 @@
   background-color: #060540;
 }
 
+.bg-blur{
+  background-color: #bfbfd25c;
+  backdrop-filter: blur(5px);
+}
+
 .bg-hero{
   background-image: url(../src/assets/bg-hero.jpg);
   background-size: cover;
