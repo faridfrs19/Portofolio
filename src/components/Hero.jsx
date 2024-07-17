@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import { styles } from '../styles'
 import { FaYoutube, FaInstagram, FaGithub, FaDownload, FaArrowDown } from 'react-icons/fa';
 import { logo} from '../assets';
-import pdf from '../assets/Farid Firdaus - Web Developer - CV.pdf'
+import pdf from '../assets/Cv_Farid.pdf'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
