@@ -31,7 +31,7 @@ const Contact = () => {
           id="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="shadow appearance-none rounded-xl w-full py-2 px-3 text-slate-300 leading-tight focus:outline-none focus:shadow-outline"
+          className="shadow bg-blur appearance-none rounded-xl w-full py-2 px-3 text-slate-300 leading-tight focus:outline-none focus:shadow-outline"
           required
         />
       </div>
@@ -44,7 +44,7 @@ const Contact = () => {
           id="subject"
           value={subject}
           onChange={(e) => setSubject(e.target.value)}
-          className="shadow appearance-none rounded-xl w-full py-2 px-3 text-slate-300 leading-tight focus:outline-none focus:shadow-outline"
+          className="shadow bg-blur appearance-none rounded-xl w-full py-2 px-3 text-slate-300 leading-tight focus:outline-none focus:shadow-outline"
           required
         />
       </div>
@@ -56,7 +56,7 @@ const Contact = () => {
           id="message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          className="shadow appearance-none rounded-xl w-full py-2 px-3 text-slate-300 leading-tight focus:outline-none focus:shadow-outline"
+          className="shadow bg-blur appearance-none rounded-xl w-full py-2 px-3 text-slate-300 leading-tight focus:outline-none focus:shadow-outline"
           required
         />
       </div>
