@@ -16,61 +16,62 @@ const Contact = () => {
   return (
     <>
       <section className="bg-all py-8" id="contact">
-        <div className="container mx-auto px-4">
-        <div className="mb-10">
-          <p className={`${styles.sectionSubText} text-center`}>Any Question?</p>
-          <h2 className={`${styles.sectionHeadText} text-center`}>Contact Me</h2>
-        </div>
-          <form onSubmit={handleSubmit} className="bg-hero rounded-xl max-w-lg mx-auto">
-            <div className="pt-4 mx-4 mb-4">
-              <label className="block text-gray-700 dark:text-gray-200 text-sm font-bold mb-2" htmlFor="email">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="shadow appearance-none rounded-xl w-full py-2 px-3 text-gray-700 dark:text-gray-200 leading-tight focus:outline-none focus:shadow-outline"
-                required
-              />
-            </div>
-            <div className="mx-4 mb-4">
-              <label className="block text-gray-700 dark:text-gray-200 text-sm font-bold mb-2" htmlFor="subject">
-                Subject
-              </label>
-              <input
-                type="text"
-                id="subject"
-                value={subject}
-                onChange={(e) => setSubject(e.target.value)}
-                className="shadow appearance-none rounded-xl w-full py-2 px-3 text-gray-700 dark:text-gray-200 leading-tight focus:outline-none focus:shadow-outline"
-                required
-              />
-            </div>
-            <div className="mx-4 mb-4">
-              <label className="block text-gray-700 dark:text-gray-200 text-sm font-bold mb-2" htmlFor="message">
-                Message
-              </label>
-              <textarea
-                id="message"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-                className="shadow appearance-none rounded-xl w-full py-2 px-3 text-gray-700 dark:text-gray-200 leading-tight focus:outline-none focus:shadow-outline"
-                required
-              />
-            </div>
-            <div className="flex items-center justify-between">
-              <button
-                type="submit"
-                className="bg-slate-200 hover:bg-blue-700 text-black font-bold mx-4 mb-4 py-2 px-4 rounded-full focus:outline-none focus:shadow-outline"
-              >
-                Send
-              </button>
-            </div>
-          </form>
-        </div>
-      </section>
+  <div className="container mx-auto px-4">
+    <div className="mb-10">
+      <p className={`${styles.sectionSubText} text-center`}>Any Question?</p>
+      <h2 className={`${styles.sectionHeadText} text-center`}>Contact Me</h2>
+    </div>
+    <form onSubmit={handleSubmit} className="bg-hero rounded-xl max-w-lg mx-auto">
+      <div className="pt-4 mx-4 mb-4">
+        <label className="block text-slate-300 text-sm font-bold mb-2" htmlFor="email">
+          Email
+        </label>
+        <input
+          type="email"
+          id="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          className="shadow appearance-none rounded-xl w-full py-2 px-3 text-slate-300 leading-tight focus:outline-none focus:shadow-outline"
+          required
+        />
+      </div>
+      <div className="mx-4 mb-4">
+        <label className="block text-slate-300 text-sm font-bold mb-2" htmlFor="subject">
+          Subject
+        </label>
+        <input
+          type="text"
+          id="subject"
+          value={subject}
+          onChange={(e) => setSubject(e.target.value)}
+          className="shadow appearance-none rounded-xl w-full py-2 px-3 text-slate-300 leading-tight focus:outline-none focus:shadow-outline"
+          required
+        />
+      </div>
+      <div className="mx-4 mb-4">
+        <label className="block text-slate-300 text-sm font-bold mb-2" htmlFor="message">
+          Message
+        </label>
+        <textarea
+          id="message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          className="shadow appearance-none rounded-xl w-full py-2 px-3 text-slate-300 leading-tight focus:outline-none focus:shadow-outline"
+          required
+        />
+      </div>
+      <div className="flex items-center justify-between">
+        <button
+          type="submit"
+          className="bg-slate-200 hover:bg-blue-700 text-black font-bold mx-4 mb-4 py-2 px-4 rounded-full focus:outline-none focus:shadow-outline"
+        >
+          Send
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
       <footer className="bg-hero" id="contact">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between sm:ms-12 ms-4">
