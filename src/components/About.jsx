@@ -17,9 +17,9 @@ const About = () => {
       </div>
 
       <p data-aos="fade-up" className='text-left sm:text-center mx-10 sm:mx-auto mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        Murid SMKN 1 Ciomas yang berminat dalam bidang teknologi dan pemrograman, 
-        saya sangat tertarik untuk menjadi seorang SOFTWARE ENGINEERING. 
-        Berpengalaman dalam mengerjakan project project sekolah untuk membuat website 
+        Saya berminat dalam bidang pemrograman dan 
+        saya sangat tertarik untuk menjadi seorang Web Developer terutama bagian Frontend. Saya cukup 
+        Berpengalaman dalam mengerjakan project-project sekolah untuk membuat website 
         dan design, hal yang sangat saya sukai adalah ketika harus melakukan 
         hal-hal yang menggunakan kreatifitas dan hal seperti problem solving
         yang mengharuskan berpikir secara logis.
