@@ -13,7 +13,7 @@ const Hero = () => {
   }, []);
   return (
     <section className="relative w-full h-screen mx-auto bg-hero">
-      <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex
+      <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto sm:mt-0 mt-8 flex
       flex-row items-start gap-5`}>
         <div className='flex flex-col justify-center items-center sm:mt-9 mt-0'>
             <div className='w-5 h-5 ms-4 rounded-full bg-[#1f2d99]'/>
@@ -38,7 +38,7 @@ const Hero = () => {
           <a 
             href={pdf} 
             download="Farid_Firdaus_CV.pdf" 
-            className="w-[150px] flex items-center px-4 py-2 mt-5 rounded-md border border-neutral-300 bg-neutral-100 text-neutral-500 text-sm hover:-translate-y-1 transform transition duration-200 hover:shadow-md"
+            className="w-[160px] flex items-center px-4 py-2 mt-5 rounded-md border border-neutral-300 bg-neutral-100 text-neutral-500 text-sm hover:-translate-y-1 transform transition duration-200 hover:shadow-md"
           >
             Download CV
             <FaDownload className="ms-2" />
@@ -50,7 +50,7 @@ const Hero = () => {
         </div>
         
       </div>
-      <a href="#about" className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
+      <a href="#about" className="absolute bottom-20 left-1/2 transform -translate-x-1/2">
         <FaArrowDown className="text-white text-4xl animate-bounce" />
       </a>
     </section>
